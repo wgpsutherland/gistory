@@ -2,7 +2,7 @@
   "author": "will sutherland",
   "name": "github-user-history",
   "description": "Node command line application to get the history of a given GitHub username. Output as a .JSON file.",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "repository": {
     "url": "https://github.com/wgpsutherland/github-user-history.git"
   },
