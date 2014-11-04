@@ -2,7 +2,7 @@
   "author": "will sutherland",
   "name": "gistory",
   "description": "A Node.js tool that returns the history of a given GitHub user as a .json file.",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "repository": {
     "url": "https://github.com/wgpsutherland/gistory.git"
   },
