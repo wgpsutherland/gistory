@@ -1,4 +1,4 @@
-# GitHub-user-history
+# gistory
 
 A Node.js tool that returns the history of a given GitHub user as a .json file.
 
@@ -6,22 +6,22 @@ A Node.js tool that returns the history of a given GitHub user as a .json file.
 
 Install with the Node.JS package manager [npm](http://npmjs.org/):
 
-    $ npm install github-user-history
+    $ npm install gistory
 
 or
 
 Install via git clone:
 
-    $ git clone git://github.com/wgpsutherland/github-user-history.git
-    $ cd github-user-history
+    $ git clone git://github.com/wgpsutherland/gistory.git
+    $ cd gistory
     $ npm install
 
 ##Use
 
 In your project or in the node command line you can do the following:
 
-    var history = require('github-user-history');
-    history.run('wgpsutherland'); // the string can be any valid GitHub username
+    var gistory = require('gistory');
+    gistory.run('wgpsutherland'); // the string can be any valid GitHub username
 
 This will create a file called history.json in the root directory which looks something like this:
     
