@@ -24,20 +24,22 @@ In your project or in the node command line you can do the following:
     history.run('wgpsutherland'); // the string can be any valid GitHub username
 
 This will create a file called history.json in the root directory which looks something like this:
-
+    
     [
         {
             "name": "wgpsutherland/github-user-history",
-            "date": "2014-11-03T19:43:21.000Z"
+            "date": "2014-11-03T23:14:39.000Z",
+            "type": "PushEvent"
         },
         {
             "name": "wgpsutherland/github-user-history",
-            "date": "2014-11-03T19:37:18.000Z"
+            "date": "2014-11-03T23:04:13.000Z",
+            "type": "PushEvent"
         },
         {
-            "name": "wgpsutherland/github-scraper",
-            "date": "2014-11-03T14:18:45.000Z"
+            "name": "wgpsutherland/github-user-history",
+            "date": "2014-11-03T19:43:21.000Z",
+            "type": "PushEvent"
         }...
     ]
-
     
